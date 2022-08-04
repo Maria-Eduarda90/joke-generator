@@ -20,10 +20,9 @@ const joke = [
     "Por que o pão não entende a batata? R.: Porque o pão é francês e a batata é inglesa"
 ]
 
-function jokeGenerator(){
+const jokeGenerator = () => {
 
     elementButtonJokeGenerator.setAttribute("disabled", true);
-
 
     const totalJoke = joke.length;
     const randomNumber = Math.floor(Math.random() * totalJoke);
